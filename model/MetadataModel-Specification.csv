@@ -1,0 +1,38 @@
+#,Field Name,Lifecycle Phase,Vocabulary / Property,Example Value,Explanation
+0,Stakeholder URI,Analysis,foaf:Person / foaf:Organization,http://example.org/person/sarah-alzahrani,A unique identifier (IRI) for a person or organization involved in the mapping project.
+1,Stakeholder Name,Analysis,foaf:name,Trinity College Dublin,"The full name of the stakeholder, e.g., a researcher or data engineer."
+2,Background,Analysis,dcterms:description / custom:hasBackground,Expert in cultural heritage data,A short summary of the stakeholder’s expertise or relevant experience.
+3,Role,Analysis,foaf:title / custom:hasRole,Data Engineer,"The role the stakeholder plays in the mapping project, e.g., 'Project Lead', 'Developer'."
+4,Organization,Analysis,foaf:Organization / foaf:name,Digital Repository Institute,The organization the stakeholder is affiliated with.
+5,Purpose,Analysis,dcterms:description / custom:hasPurpose,To align historical datasets,The intended purpose or goal of the mapping effort.
+6,Requirements,Analysis,custom:hasRequirement,Map all person records to standard ontology,Functional or data requirements that the mapping should fulfill.
+7,Mapping Type,Analysis,mqv:hasMappingType,Uplift Mapping,"The type of mapping being created, such as 'ontology alignment' or 'uplift mapping'."
+8,Mapping Domain,Analysis,custom:hasMappingDomain,Historical geography,"The subject area or domain the mapping applies to, e.g., 'cultural heritage'."
+9,Domain Assumptions,Analysis,custom:hasDomainAssumption,Each county has a unique ID and geographic coordinates,Assumptions made about the source or target data's structure or semantics.
+10,Technical Requirement,Analysis,custom:hasTechnicalRequirement,Mapping tool must support RDF-star,"Technological constraints or system expectations, e.g., must run in Apache Spark."
+11,Risks or Issues,Analysis,custom:hasRiskOrIssue,Ambiguities in county boundaries,Known problems or potential risks related to the mapping task.
+12,Input Description,Analysis,dcterms:description / custom:hasInputDescription,County-level data from the VRTI dataset,A textual description of the input dataset or data source.
+13,Input URI,Analysis,mqv:hasSourceDataset,http://vrti.dri.ie/data/counties.csv,A unique identifier (IRI) for the input dataset.
+14,Input Name,Analysis,dcterms:title / custom:hasInputName,counties.csv,The title or name of the input dataset.
+15,Input Source,Analysis,dcterms:source,Virtual Record Treasury of Ireland archive,The origin or provider of the input data.
+16,Input Type,Analysis,dcterms:type,CSV,"The type of input data, e.g., XML, CSV, JSON."
+17,Input Creator,Analysis,dcterms:creator,Trinity Research Team,The original author or creator of the input dataset.
+18,Input Format,Analysis,dcterms:format,text/csv,"The file format or encoding of the input dataset, such as 'application/xml'."
+19,Final Design Decisions,Design,custom:hasDesignDecision,Reuse existing mapping ,The finalized choices made during the design phase.
+20,Justification,Design,custom:hasJustification,To ensure consistency with other datasets,The reasoning behind certain design decisions.
+21,Quality Metrics,Design,mqv:hasQualityMetric,"Number of fields annotated, error rate","Measurements indicating the mapping's quality, such as precision and recall."
+22,URI,Development,dcterms:identifier,http://example.org/mapping/001,A globally unique identifier for the mapping project or file.
+23,Name,Development,dcterms:title,Address Mapping V1,A descriptive name for the mapping file.
+24,Start Date,Development,prov:startedAtTime,2025-06-01,The date the mapping project or task began.
+25,End Date,Development,prov:endedAtTime,2025-06-06,The date the mapping task or phase was completed.
+26,Tools,Development,mqv:hasMappingActivity,"RMLEditor, Protégé",Software or platforms used to create the mapping.
+27,Mapping Method,Development,mqv:hasMappingMethod,Semi-automatic mapping with manual review,"The approach used to build the mapping, e.g., manually or using a tool."
+28,Mapping Algorithm,Development,custom:hasMappingAlgorithm,Row-based transformation logic,A specific algorithm used to automate or validate the mapping
+29,Format,Development,mqv:hasMappingFormat / dcterms:format,RML,"The technical syntax in which the mapping is encoded, such as RML or R2RML."
+30,Testing Type,Testing,custom:hasTestingType,Validation against SHACL shapes,"The category of testing conducted, such as 'unit test' or 'integration test'."
+31,Testing Date/Time,Testing,prov:generatedAtTime / dcterms:date,2025-06-07T15:00:00,The timestamp when testing occurred.
+32,Testing Result,Testing,custom:hasTestingResult,Pass: All constraints satisfied,The outcome of the testing phase.
+33,Publisher Name,Maintenance,dcterms:publisher / foaf:name,Sarah Alzahrani,The person or organization that officially released the mapping.
+34,Publisher Source,Maintenance,dcterms:source,Trinity College Dublin,Where the published mapping can be traced to.
+35,Version Number,Maintenance,owl:versionInfo / custom:hasVersionNumber,v1.0,"The version identifier for the mapping, such as 'v1.0'."
+36,Version Date/Time,Maintenance,dcterms:issued / prov:generatedAtTime,2025-06-07T18:30:00,The date and time when the version was created or released.
