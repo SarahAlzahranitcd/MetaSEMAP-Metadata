@@ -1,0 +1,35 @@
+@prefix dcmi: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix metag: <http://example.com/metag/> .
+
+metag:subject metag:endDate "2024-11-19" ;
+    metag:mappingAlgorithm "" ;
+    metag:mappingAssumptions "" ;
+    metag:mappingDomain "Educational" ;
+    metag:mappingFormat "" ;
+    metag:mappingMethod "Manual" ;
+    metag:mappingName "" ;
+    metag:mappingType "Ontologies Alignment" ;
+    metag:mappingURI "https://kb.virtualtreasury.ie/alignment" ;
+    metag:publisherName "Virtual Treasure Ireland" ;
+    metag:publisherSource "https://kb.virtualtreasury.ie" ;
+    metag:purpose "allign virtual treasury" ;
+    metag:risksIssues "" ;
+    metag:startDate "2024-11-19" ;
+    metag:technicalRequirement "" ;
+    metag:testingDate "2024-11-19" ;
+    metag:testingName "" ;
+    metag:testingResult "Valid" ;
+    metag:testingType "Quality testing " ;
+    metag:testingURI "" ;
+    metag:tool "" ;
+    metag:versionDateTime "2024-11-19" ;
+    metag:versionNumber "1.0" ;
+    dcmi:creator "" ;
+    dcmi:source "https://kb.virtualtreasury.ie/alignment" ;
+    foaf:background "" ;
+    foaf:familyName "" ;
+    foaf:givenName "" ;
+    foaf:organization "" ;
+    foaf:role "" .
+

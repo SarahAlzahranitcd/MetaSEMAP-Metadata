@@ -1,0 +1,35 @@
+@prefix dcmi: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix metag: <http://example.com/metag/> .
+
+metag:subject metag:endDate "2024-02-28" ;
+    metag:mappingAlgorithm "" ;
+    metag:mappingAssumptions "" ;
+    metag:mappingDomain "Geospatial" ;
+    metag:mappingFormat "" ;
+    metag:mappingMethod "Automatic" ;
+    metag:mappingName "" ;
+    metag:mappingType "Uplift Mapping" ;
+    metag:mappingURI "http://virtualrecordtreasury.ie/uplift_mapping_v1.0" ;
+    metag:publisherName "Virtual Record Treasury of Ireland (VRTI)" ;
+    metag:publisherSource "https://virtualtreasury.ie" ;
+    metag:purpose "To transform historical Irish county data from a CSV file into RDF triples, enabling semantic enrichment and enhanced accessibility in a web-friendly format within the Virtual Record Treasury of Ireland (VRTI) Knowledge Graph" ;
+    metag:risksIssues "" ;
+    metag:startDate "2024-01-01" ;
+    metag:technicalRequirement "" ;
+    metag:testingDate "2024-02-28" ;
+    metag:testingName "" ;
+    metag:testingResult "Successfully validated, ensuring data completeness and semantic alignment" ;
+    metag:testingType "Validation" ;
+    metag:testingURI "" ;
+    metag:tool "" ;
+    metag:versionDateTime "2024-02-28" ;
+    metag:versionNumber "1.0" ;
+    dcmi:creator "" ;
+    dcmi:source "file:///data_county.csv () #Supplement the file path between 'file:///' and 'data_county.csv' based on the file's location" ;
+    foaf:background "" ;
+    foaf:familyName "" ;
+    foaf:givenName "" ;
+    foaf:organization "" ;
+    foaf:role "" .
+
